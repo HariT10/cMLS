@@ -1,0 +1,1036 @@
+/* By: Harishan Thilakanathan(1274198) */
+/* Email: hthilaka@uoguelph.ca */
+/* Purpose: Assignment 3 (CIS 1050) */
+
+/* Date: Monday, April 8, 2024 */
+
+/* WORD COUNT: 1300+ Words in this website as a whole */
+
+/* Website is about the 3 different Canadian soccer teams in the MLS (Major League Soccer) */
+
+/* FILENAME: webstyle.css */
+
+/*---------------------------------------------------------------------------------------------*/
+
+body{
+    background-color: #F0FFFF;
+    background-image: url(4907157.jpg);
+    background-size: 100% auto;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+/* PICUTRE */
+
+.image1{
+  width: 300px;
+  height: 200px;
+}
+
+
+.logo img{
+  width: 290px;
+  height: 280px;
+  margin-top: -175px;
+
+}
+
+
+/* HEADER */
+
+nav{
+ 
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 320px;
+  margin-top: 20px;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  position: relative;
+
+}
+  
+/* ROW HEADER */
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 40px;
+
+}
+
+/* DECORATION, COLOUR OF TEXT */
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+}
+
+
+nav ul li a::after{
+  content: ' ';
+  width: 0;
+  height: 3px;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+/*----------------------------------------------------------------*/
+
+
+/*Quote and three teams logos on top of Home Page*/
+
+.introMoto{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: -50px;
+  margin-left: 600px;
+  font-size: 10px;
+
+}
+
+.teamLogos img{
+
+  width: 330px;
+  height: 330px;
+  margin-top: 100px;
+  margin-left: 110px;
+
+}
+
+/*----------------------------------------------------------------*/
+
+
+/* The Block of text and the logo beside eachother on the Home screen */
+
+.container {
+  display: flex;
+  align-items: center; 
+}
+
+
+.text h1{
+  flex: 1; 
+  padding-right: 20px; 
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 170px;
+  margin-left: 100px;
+  font-size: 60px;
+}
+
+.text p{
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+
+}
+
+.image img{
+  width: 450px;
+  height: 440px;
+  margin-left: 100px;
+  margin-top: 210px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/*The links Above the Footer*/
+
+.footerHeader {
+  margin-top: 200px;
+  margin-left: 100px;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.footerHeader ul {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  font-weight: bold;
+}
+
+.footerHeader li{
+  list-style-type: none;
+  
+}
+
+.footerHeader ul li {
+  margin-right: 150px; 
+}
+
+.footerHeader ul li a {
+  text-decoration: none; 
+  color: black; 
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*The FOOTER*/
+
+.image-section {
+  position: relative; 
+}
+
+.background-image {
+  position: absolute;
+  width: 1472px; 
+  height: 330px; 
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+
+.textOverlay {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  text-align: left; 
+  align-items: center;
+
+  margin-top: 150px;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-right: 10px;
+  
+}
+
+.textOverlay h1{
+  font-size: 60px;
+  align-items: center;
+}
+
+.textOverlay p{
+  font-size: 18px;
+  list-style-type: none;
+  align-items: center;
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+
+/* one.html CSS ELEMENTS (FOR THE TORONTO FC PAGE) */
+
+.tHeader h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: -50px;
+  margin-left: 110px;
+  font-size: 35px;
+  color: #e31c34;
+
+}
+
+.tHeader img{
+
+  width: 50px;
+  height: 50px;
+  margin-top: -80px;
+  margin-left: 30px;
+
+}
+
+.tHeader p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+
+.tPictures img{
+
+  width: 550px;
+  height: 330px;
+  margin-top: 100px;
+  margin-left: 110px;
+
+}
+  
+
+.notableSeason h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 140px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.notableSeason p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.nSeasonsPictures img{
+
+  width: 370px;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 110px;
+  margin-right: -70px;
+
+}
+
+
+.notableGame h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 210px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.notableGame p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+  
+}
+
+.nGamePictures img{
+
+  width: 550px;
+  height: 330px;
+  margin-top: 60px;
+  margin-left: 110px;
+
+}
+
+.notablePlayers h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 100px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.notablePlayers p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+
+}
+
+
+
+/* PLAYER 1 (Giovinco) -------------------------*/
+
+.p1Name h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 25px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.player1 img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+
+
+}
+
+.player1{
+  display: flex;
+  align-items: center;
+}
+
+.player1 ul{
+
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player1 li{
+  margin-bottom: 25px;
+
+}
+
+
+/*PLAYER 2 (Altidore) --------------------------------*/
+
+.p2Name h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 40px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -130px;
+
+}
+
+.player2 img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 150px;
+
+}
+
+.player2{
+  display: flex;
+  align-items: center;
+}
+
+.player2 ul{
+
+  margin-left: 10px;
+  margin-top: 100px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player2 li{
+  margin-bottom: 35px;
+}
+
+/*PLAYER 3 (Osario) -------------------------*/
+
+.p3Name h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -130px;
+
+}
+
+.player3 img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 150px;
+
+}
+
+.player3{
+  display: flex;
+  align-items: center;
+}
+
+.player3 ul{
+
+  margin-left: 10px;
+  margin-top: 150px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player3 li{
+  margin-bottom: 25px;
+}
+
+
+/*PLAYER 4 (Bradley) -------------------------*/
+
+.p4Name h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -130px;
+
+}
+
+.player4 img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 150px;
+
+}
+
+.player4{
+  display: flex;
+  align-items: center;
+}
+
+.player4 ul{
+
+  margin-left: 10px;
+  margin-top: 150px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player4 li{
+  margin-bottom: 25px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* two.html CSS ELEMENTS (FOR THE Vancouver Whitecaps PAGE) */
+
+
+.vHeader h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: -50px;
+  margin-left: 110px;
+  font-size: 35px;
+  color: #9cc2e9;
+
+}
+
+.vHeader img{
+
+  width: 50px;
+  height: 50px;
+  margin-top: -80px;
+  margin-left: 30px;
+
+}
+
+.vHeader p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.vPictures img{
+
+  width: 550px;
+  height: 330px;
+  margin-top: 100px;
+  margin-left: 110px;
+
+}
+
+
+.vNotableSeason h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 150px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.vNotableSeason p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.vSeasonsPictures img{
+
+  width: 580px;
+  height: 380px;
+  margin-top: 50px;
+  margin-left: 110px;
+  margin-right: -70px;
+
+}
+
+.vNotablePlayers h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 100px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.vNotablePlayers p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+
+}
+
+
+/* PLAYER 1 (Alphonso Davies) -------------------------*/
+
+.p1NameV h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 25px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.player1V img{
+
+  width: 425px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: -20px;
+
+
+}
+
+.player1V{
+  display: flex;
+  align-items: center;
+}
+
+.player1V ul{
+
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player1V li{
+  margin-bottom: 25px;
+
+}
+
+
+/*PLAYER 2 (Camilo) -------------------------*/
+
+.p2NameV h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 40px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -150px;
+
+}
+
+.player2V img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 150px;
+
+}
+
+.player2V{
+  display: flex;
+  align-items: center;
+}
+
+.player2V ul{
+
+  margin-left: 10px;
+  margin-top: 170px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player2V li{
+  margin-bottom: 30px;
+}
+
+
+
+
+/*PLAYER 3 (Russel Teibert) -------------------------*/
+
+.p3NameV h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 40px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -150px;
+
+}
+
+.player3V img{
+
+  width: 445px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 170px;
+
+}
+
+.player3V{
+  display: flex;
+  align-items: center;
+}
+
+.player3V ul{
+
+  margin-left: 10px;
+  margin-top: 170px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player3V li{
+  margin-bottom: 30px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* three.html CSS ELEMENTS (FOR THE CF MONTREAL PAGE) */
+
+
+.mHeader h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: -50px;
+  margin-left: 110px;
+  font-size: 35px;
+  color: #003da7;
+
+}
+
+.mHeader img{
+
+  width: 50px;
+  height: 50px;
+  margin-top: -80px;
+  margin-left: 30px;
+
+}
+
+.mHeader p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.mPictures img{
+
+  width: 550px;
+  height: 330px;
+  margin-top: 100px;
+  margin-left: 110px;
+
+}
+
+.mNotableSeason h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 150px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.mNotableSeason p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.mSeasonsPictures img{
+
+  width: 580px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 110px;
+  margin-right: -70px;
+
+}
+
+.logoChange h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 150px;
+  margin-left: 110px;
+  font-size: 35px;
+
+
+}
+
+.logoChange p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.changePics img{
+
+    width: 370px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: -70px;
+  
+}
+
+
+
+.mNotablePlayers h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 150px;
+  margin-left: 110px;
+  font-size: 35px;
+
+}
+
+.mNotablePlayers p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 10px;
+  margin-left: 110px;
+
+}
+
+
+/* PLAYER 1 (Ignacio Piatti) -------------------------*/
+
+.p1NameM h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 25px;
+  margin-left: 110px;
+  font-size: 20px;
+
+}
+
+.player1M img{
+
+  width: 425px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: -15px;
+
+
+}
+
+.player1M{
+  display: flex;
+  align-items: center;
+}
+
+.player1M ul{
+
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player1M li{
+  margin-bottom: 25px;
+
+}
+
+
+
+/*PLAYER 2 (Evan Bush) -------------------------*/
+
+.p2NameM h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 40px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -150px;
+
+}
+
+.player2M img{
+
+  width: 425px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 160px;
+
+}
+
+.player2M{
+  display: flex;
+  align-items: center;
+}
+
+.player2M ul{
+
+  margin-left: 10px;
+  margin-top: 170px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player2M li{
+  margin-bottom: 30px;
+}
+
+
+
+/*PLAYER 3 (Marco Di Vaio) -------------------------*/
+
+.p3NameM h1{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 20px;
+  margin-bottom: -150px;
+
+}
+
+.player3M img{
+
+  width: 425px; 
+  height: auto; 
+  margin-right: 20px;
+  margin-left: 110px;
+  margin-top: 130px;
+
+}
+
+.player3M{
+  display: flex;
+  align-items: center;
+}
+
+.player3M ul{
+
+  margin-left: 10px;
+  margin-top: 170px;
+  padding: 0;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.player3M li{
+  margin-bottom: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* 404 PAGE */
+
+
+.notFound h1{
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 50px;
+}
+
+.notFound p{
+
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.notFound a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.nFound p{
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+.nFound a{
+
+  text-decoration: none;
+  color: #000000;
+
+}
+
+
+.nFound img{
+  margin-top: 350px;
+  height: auto;
+  width: 300px;
+  margin-left: 590px;
+}
